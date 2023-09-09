@@ -1,7 +1,5 @@
-def xmethod(a,b,c)
-  x = a + b
-  y = a - c
-  z = x * y
-  return z
+def calc(a,b,c)
+  x = (a + b) / 2.0
+  y = x * c
+  return y
 end
-
